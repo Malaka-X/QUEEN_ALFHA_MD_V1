@@ -51,7 +51,7 @@ ${menu.search}
 
 POWERD BY QUEEN-AIFA-MD-BOT 💗
 `
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://i.ibb.co/PTDqtLM/20241009-182420.jpg"},caption:madeMenu},{quoted:mek})
 
 
 }catch(e){
