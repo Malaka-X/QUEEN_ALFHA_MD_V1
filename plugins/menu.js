@@ -27,6 +27,8 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 let madeMenu = `💗 *Hello ${pushname}* 👋
 > *DOWNLOAD COMMANDS* ⬇️
 
+.video📶
+
 ${menu.download}
 
 > *MAIN COMMANDS* 🌟
