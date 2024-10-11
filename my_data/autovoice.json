@@ -1,5 +1,7 @@
 {
-"hi":"example hi voice url",
-"mk":"example mk voice url",
-"gm":"example gm url"
+"hi":"https://github.com/Malaka-X/MALAKA_MD/raw/refs/heads/main/autovoice/HI.mp3",
+"mk":"https://github.com/Malaka-X/MALAKA_MD/raw/refs/heads/main/autovoice/mk.aac",
+"gm":"https://github.com/Malaka-X/MALAKA_MD/raw/refs/heads/main/autovoice/GM.aac",
+"gn":"https://github.com/Malaka-X/MALAKA_MD/raw/refs/heads/main/autovoice/gn.aac",
+"hm":"https://github.com/Malaka-X/MALAKA_MD/raw/refs/heads/main/autovoice/hm.aac"
 }
