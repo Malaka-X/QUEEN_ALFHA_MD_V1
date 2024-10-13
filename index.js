@@ -79,9 +79,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `QUEENAIFA-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `QUEEN-ALFHA-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/tsmZ0f9/20241008-183851.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/xgw4Fs6/20241013-212154.jpg` }, caption: up })
 
 }
 })
@@ -152,7 +152,7 @@ m.react("💗")
 
 if(senderNumber.includes("94742287793")){
 if(isReact) return
-m.react("⭐")
+m.react("✅")
 }
 //=================================================
 //====================WORK-type======================================================== 
