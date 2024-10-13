@@ -1,3 +1,4 @@
 #  QUEEN_ALFHA_MD
 A simple whatsapp bot
-https://i.ibb.co/f1HSsCt/20241013-212427.jpg
+<img src="https://i.ibb.co/rMYDLWR/20241002-095000.jpg" width="300" height="300">
+</div>
