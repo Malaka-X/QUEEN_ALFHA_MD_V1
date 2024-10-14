@@ -25,7 +25,7 @@ time: ${data.timestamp}
 ago: ${data.ago}
 views: ${data.views}
 
-MADE BY QUEENAIFA 💗
+MADE BY QUEENAIFA ✅
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -70,7 +70,7 @@ time: ${data.timestamp}
 ago: ${data.ago}
 views: ${data.views}
 
-MADE BY QUEENAIFA 💗
+MADE BY QUEENAIFA ✅
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
