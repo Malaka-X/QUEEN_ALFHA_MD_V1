@@ -10,7 +10,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.*/
 
-const { AMDI, _default_list_sections, fmmod_com, Language, blackamda_API, apkDL_List } = require('queen_amdi_core/dist/scripts')
+const { AMDI, _default_list_sections, fmmod_com, Language, blackamda_API, apkDL_List } = require('core/dist/scripts')
 const axios = require("axios")
 const { fmmods_packages } = _default_list_sections
 const Lang = Language.getString('misc');
