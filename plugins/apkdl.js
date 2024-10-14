@@ -1,14 +1,4 @@
-/**
-* @project_name Queen Amdi [WA Multi-device]
-* @author BlackAmda <https://github.com/BlackAmda>
-* @description A WhatsApp based 3ʳᵈ party application that provide many services with a real-time automated conversational experience
-* @link <https://github.com/BlackAmda/QueenAmdi>
-* @version 4.0.8
-* @file  apkdl.js - QueenAmdi APK Downloaders
 
-© 2022 Black Amda, ANTECH. All rights reserved.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.*/
 
 const { AMDI, _default_list_sections, fmmod_com, Language, blackamda_API, apkDL_List } = require('core/dist/scripts')
 const axios = require("axios")
