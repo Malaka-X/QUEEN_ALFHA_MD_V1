@@ -26,26 +26,34 @@ menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
 }
 
 let madeMenu = `💗 *Hello ${pushname}* 👋
-┌────────────
-❖ *📥DOWNLOAD COMMANDS📥*
-│
-│ ✑ _.song_
-│ ✑ _.video_
-│ ✑ _.fb_
-│ ✑ _.facebook_
-│ ✑ _.tt_
-│ ✑ _.tiktok_
-│ ✑ _.ig_
-│ ✑ _.twdl_
-│ ✑ _.twitter_
-│ ✑ _.gdrive_
-│ ✑ _.apk_
-│ ✑ _.mediafire_
-└────────────
+> *DOWNLOAD COMMANDS* ⬇️
+.video
+
+${menu.download}
+
+> *MAIN COMMANDS* 🌟
+
+${menu.main}
+
+> *GROUP COMMANDS* ⏩
+
+${menu.group}
+
+> *OWNER COMMANDS* 📶
+
+${menu.owner}
+
+> *CONVERT COMMANDS* 😔
+
+${menu.convert}
+
+> *SEARCH COMMANDS* 👀
+
+${menu.search}
 
 POWERD BY QUEEN-AIFA-MD-BOT 💗
 `
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/GWyFJPj/20241013-212512.jpg`},caption: desc},{quoted: mek})
+await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
 
 }catch(e){
